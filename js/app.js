@@ -7,7 +7,7 @@ function maxNumber(a, b) {
     return (`Это число a: ${a}`);
   }
   if (a < b) {
-    return (`Это число a: ${b}`);
+    return (`Это число b: ${b}`);
   } else {
     return (`Это a = b: ${a} = ${b}`);
   }
