@@ -4,17 +4,17 @@ alert(message);
 
 function maxNumber(a, b) {
   if (a > b) {
-    return a;
+    return (`Это число a: ${a}`);
   }
   if (a < b) {
-    return b;
+    return (`Это число a: ${b}`);
   } else {
-    return (a = b);
+    return (`Это a = b: ${a} = ${b}`);
   }
 }
 
-let a = prompt("first number", "a");
-let b = prompt("second number", "b");
+const a = prompt("first number", "a");
+const b = prompt("second number", "b");
 
 alert(maxNumber(a, b));
 
@@ -27,7 +27,7 @@ function revers(number1) {
   return number1 - number1 * 2;
 }
 
-let number1 = prompt("add number", "");
+const number1 = prompt("add number", "");
 
 alert(revers(number1));
 
@@ -40,8 +40,8 @@ function three(number, count) {
   return number + 3 * count;
 }
 
-let number = prompt("enter number", "");
-let count = prompt("enter count", "");
+const number = prompt("enter number", "");
+const count = prompt("enter count", "");
 
 alert(three(+number, +count));
 
